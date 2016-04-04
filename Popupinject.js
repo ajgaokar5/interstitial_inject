@@ -12,7 +12,7 @@ function closeFunction() {
 
 function ajax_post() {
     var e = new XMLHttpRequest,
-        t = "https://dakh.tech/postData.php",
+        t = "postData.php",
         i = document.getElementById("emailAddress").value,
         o = "email=" + i;
         e.open("POST", t, !0), e.setRequestHeader("Content-type", "application/x-www-form-urlencoded"), e.onreadystatechange =
